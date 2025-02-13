@@ -17,7 +17,7 @@ jobs:
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@1
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          apiToken: ${{ secrets.J5-QkmRXMK9seGHcHFXR6Iko0dtY54-HY9l0OVkw }}
+          accountId: ${{ secrets.9859ea73ac4db59e348c1cf03420dfbd }}
           projectName: "bioxmind"
           directory: "."
